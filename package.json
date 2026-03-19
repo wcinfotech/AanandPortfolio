@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://wcinfotech.github.io/AanandPortfolio/",
+  "homepage": "https://wcinfotech.github.io/AanandPortfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+"deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
