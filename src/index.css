@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface-dark: 15 23 42;
+  --surface-light: 248 250 252;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: "Inter", system-ui, sans-serif;
+  background-color: rgb(var(--surface-dark));
+  color: rgb(226 232 240);
+  background-image:
+    radial-gradient(circle at 8% 10%, rgba(56, 189, 248, 0.17), transparent 34%),
+    radial-gradient(circle at 90% 0%, rgba(129, 140, 248, 0.22), transparent 45%),
+    radial-gradient(circle at 60% 80%, rgba(14, 165, 233, 0.14), transparent 32%),
+    linear-gradient(160deg, rgba(15, 23, 42, 0.96), rgba(2, 6, 23, 0.98));
+  background-attachment: fixed;
+}
+
+.light body {
+  color: rgb(15 23 42);
+  background-color: rgb(var(--surface-light));
+  background-image:
+    radial-gradient(circle at 10% 15%, rgba(56, 189, 248, 0.24), transparent 36%),
+    radial-gradient(circle at 85% 8%, rgba(99, 102, 241, 0.2), transparent 44%),
+    radial-gradient(circle at 50% 90%, rgba(14, 165, 233, 0.16), transparent 34%),
+    linear-gradient(160deg, rgba(248, 250, 252, 0.98), rgba(241, 245, 249, 0.96));
+}
+
+::selection {
+  background-color: rgba(56, 189, 248, 0.25);
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+section[id] {
+  scroll-margin-top: 118px;
+}
+
+@layer components {
+  .section-shell {
+    @apply relative mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .glass-panel {
+    @apply border border-white/15 bg-white/5 backdrop-blur-xl shadow-soft;
+  }
+
+  .light .glass-panel {
+    @apply border-slate-200/80 bg-white/65;
+  }
+
+  .section-title {
+    @apply font-display text-3xl font-semibold tracking-tight sm:text-4xl;
+  }
+
+  .section-kicker {
+    @apply mb-3 inline-flex items-center rounded-full border border-sky-300/30 bg-sky-400/10 px-4 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-sky-200;
+  }
+
+  .light .section-kicker {
+    @apply border-sky-500/30 bg-sky-500/10 text-sky-700;
+  }
+
+  .grid-pattern {
+    background-image:
+      linear-gradient(rgba(148, 163, 184, 0.14) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(148, 163, 184, 0.14) 1px, transparent 1px);
+    background-size: 34px 34px;
+    mask-image: radial-gradient(circle at center, black 35%, transparent 85%);
+  }
+
+  .light .grid-pattern {
+    background-image:
+      linear-gradient(rgba(100, 116, 139, 0.14) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(100, 116, 139, 0.14) 1px, transparent 1px);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-sky-300 via-cyan-300 to-indigo-300 bg-clip-text text-transparent;
+  }
+
+  .light .text-gradient {
+    @apply from-sky-600 via-cyan-500 to-indigo-600;
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(56, 189, 248, 0.5) transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 9px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background: linear-gradient(180deg, rgba(56, 189, 248, 0.85), rgba(99, 102, 241, 0.85));
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}

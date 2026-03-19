@@ -1,0 +1,21 @@
+<svg width="720" height="840" viewBox="0 0 720 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="660" y2="780" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(540 180) rotate(118) scale(280)">
+      <stop stop-color="#BAE6FD" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#BAE6FD" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="840" fill="url(#bg)"/>
+  <rect x="40" y="40" width="640" height="760" rx="38" fill="#0F172A" fill-opacity="0.23" stroke="rgba(255,255,255,0.24)"/>
+  <circle cx="560" cy="190" r="180" fill="url(#orb)"/>
+  <circle cx="360" cy="320" r="145" fill="rgba(255,255,255,0.16)"/>
+  <circle cx="360" cy="285" r="64" fill="rgba(255,255,255,0.88)"/>
+  <rect x="240" y="374" width="240" height="230" rx="120" fill="rgba(255,255,255,0.78)"/>
+  <text x="360" y="704" fill="#E0F2FE" font-size="70" font-family="Inter, sans-serif" font-weight="700" text-anchor="middle">AANAND PALAN</text>
+  <text x="360" y="756" fill="#BAE6FD" font-size="32" font-family="Inter, sans-serif" text-anchor="middle">FULL STACK DEVELOPER</text>
+</svg>

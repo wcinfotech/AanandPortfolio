@@ -1,0 +1,36 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="eventsBg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#E2E8F0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#eventsBg)"/>
+
+  <text x="74" y="118" fill="#1E275D" font-family="Poppins, Arial, sans-serif" font-size="64" font-weight="700">Events</text>
+  <rect x="74" y="138" width="1040" height="2" fill="#CBD5E1"/>
+
+  <rect x="74" y="194" width="326" height="430" rx="12" fill="white" stroke="#CBD5E1"/>
+  <rect x="74" y="194" width="326" height="108" rx="12" fill="#6A1A79"/>
+  <text x="98" y="256" fill="white" font-family="Poppins, Arial, sans-serif" font-size="58" font-weight="700">7 TO 13</text>
+  <text x="99" y="290" fill="white" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="700">JANUARY</text>
+  <rect x="74" y="302" width="326" height="212" fill="#67B4CF"/>
+  <text x="95" y="574" fill="#1E275D" font-family="Poppins, Arial, sans-serif" font-size="44" font-weight="700">उड़ान सपनों की।</text>
+
+  <rect x="436" y="194" width="326" height="430" rx="12" fill="white" stroke="#CBD5E1"/>
+  <rect x="436" y="194" width="326" height="108" rx="12" fill="#6A1A79"/>
+  <text x="460" y="256" fill="white" font-family="Poppins, Arial, sans-serif" font-size="58" font-weight="700">24 -25</text>
+  <text x="460" y="290" fill="white" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="700">DECEMBER</text>
+  <rect x="436" y="302" width="326" height="212" fill="#B8D8FF"/>
+  <text x="462" y="574" fill="#1E275D" font-family="Poppins, Arial, sans-serif" font-size="48" font-weight="700">Sports Day</text>
+
+  <rect x="798" y="194" width="326" height="430" rx="12" fill="white" stroke="#CBD5E1"/>
+  <rect x="798" y="194" width="326" height="108" rx="12" fill="#6A1A79"/>
+  <text x="821" y="256" fill="white" font-family="Poppins, Arial, sans-serif" font-size="58" font-weight="700">NOVEMBER</text>
+  <rect x="798" y="302" width="326" height="212" fill="#FBBF24"/>
+  <circle cx="961" cy="406" r="84" fill="#EF4444"/>
+  <circle cx="961" cy="406" r="58" fill="#60A5FA"/>
+  <circle cx="961" cy="406" r="32" fill="#F9FAFB"/>
+  <text x="818" y="574" fill="#1E275D" font-family="Poppins, Arial, sans-serif" font-size="44" font-weight="700">Rangoli Competition</text>
+</svg>
