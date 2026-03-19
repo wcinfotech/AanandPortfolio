@@ -1,0 +1,39 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D2256"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="cta" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#D946EF"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#heroBg)"/>
+
+  <rect x="0" y="0" width="1200" height="92" fill="#61186C"/>
+  <rect x="640" y="0" width="560" height="92" fill="#6A1A79"/>
+  <circle cx="110" cy="46" r="24" fill="#E879F9" fill-opacity="0.25"/>
+  <rect x="150" y="36" width="110" height="8" rx="4" fill="white" fill-opacity="0.7"/>
+  <rect x="270" y="36" width="80" height="8" rx="4" fill="white" fill-opacity="0.38"/>
+  <rect x="860" y="36" width="58" height="8" rx="4" fill="white"/>
+  <rect x="932" y="36" width="74" height="8" rx="4" fill="white" fill-opacity="0.8"/>
+  <rect x="1020" y="36" width="58" height="8" rx="4" fill="white" fill-opacity="0.8"/>
+
+  <rect x="76" y="146" width="184" height="118" rx="14" fill="#22345F" fill-opacity="0.8"/>
+  <rect x="282" y="146" width="184" height="118" rx="14" fill="#2C477B" fill-opacity="0.84"/>
+  <rect x="488" y="146" width="184" height="118" rx="14" fill="#243764" fill-opacity="0.82"/>
+  <rect x="694" y="146" width="184" height="118" rx="14" fill="#28416F" fill-opacity="0.84"/>
+
+  <text x="130" y="350" fill="white" font-family="Poppins, Arial, sans-serif" font-size="66" font-weight="700">उड़ान सपनों की।</text>
+  <text x="132" y="390" fill="#D1D5DB" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="500">Flight of dreams with a bold inquiry-first experience</text>
+
+  <rect x="132" y="430" width="200" height="66" rx="10" fill="url(#cta)"/>
+  <text x="191" y="473" fill="white" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="700">Apply Now</text>
+
+  <rect x="82" y="548" width="150" height="22" rx="11" fill="#E879F9" fill-opacity="0.36"/>
+  <rect x="246" y="548" width="26" height="22" rx="11" fill="#FFFFFF" fill-opacity="0.88"/>
+  <rect x="284" y="548" width="26" height="22" rx="11" fill="#FFFFFF" fill-opacity="0.42"/>
+  <rect x="322" y="548" width="26" height="22" rx="11" fill="#FFFFFF" fill-opacity="0.42"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#0A1323"/>
+  <rect x="36" y="28" width="1208" height="664" rx="24" fill="#111E36" stroke="#2F466F"/>
+  <rect x="74" y="72" width="1132" height="60" rx="12" fill="#1C3154"/>
+  <rect x="96" y="94" width="220" height="16" rx="8" fill="#BAE6FD"/>
+  <rect x="1020" y="86" width="166" height="30" rx="15" fill="#6366F1"/>
+  <rect x="74" y="160" width="780" height="230" rx="16" fill="#193253"/>
+  <rect x="102" y="200" width="320" height="24" rx="12" fill="#E2E8F0"/>
+  <rect x="102" y="236" width="380" height="14" rx="7" fill="#A4B4CE"/>
+  <rect x="102" y="266" width="260" height="14" rx="7" fill="#A4B4CE"/>
+  <rect x="102" y="302" width="170" height="34" rx="17" fill="#22D3EE"/>
+  <rect x="878" y="160" width="328" height="230" rx="16" fill="#1B3256"/>
+  <rect x="902" y="194" width="280" height="170" rx="12" fill="#2B476F"/>
+  <rect x="74" y="420" width="1132" height="240" rx="16" fill="#162B4C"/>
+  <rect x="106" y="456" width="250" height="16" rx="8" fill="#BAE6FD"/>
+  <rect x="106" y="488" width="1068" height="14" rx="7" fill="#445F88"/>
+  <rect x="106" y="514" width="1068" height="14" rx="7" fill="#445F88"/>
+  <rect x="106" y="540" width="1068" height="14" rx="7" fill="#445F88"/>
+  <text x="80" y="688" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="22" font-weight="700">Dignity Academy Educational Platform</text>
+</svg>
